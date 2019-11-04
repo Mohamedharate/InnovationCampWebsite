@@ -8,7 +8,6 @@ a.active, a:hover {
     color: black;
     text-decoration: underline #f3f2b4;
 }
-
 .backgroundstyle{
     position: absolute;
     bottom: 100px;
@@ -17,4 +16,22 @@ a.active, a:hover {
     height: 500px;
     width: 100%;
     clip-path: polygon(0 33%, 100% 0, 100% 66%, 0% 100%);
+    z-index: -10;
+}
+.Box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.Box1{
+    height: 450px;
+    width: 1000px;
+    padding: 25px;
+    background: radial-gradient(#ffffd3, #f3f2b4);
+    box-shadow: 0 5px 5px -2px;
+}
+.Box h1, .Box p {
+    font-family: sans-serif;
+    line-height: 30px;
 }
