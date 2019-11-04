@@ -6,13 +6,24 @@ nav{
     padding-top: 3px;
     top: 0;
     left: 0;
-    box-shadow: 0 5px 5px -5px;
+    background: #ffffd3;
+    /*box-shadow: 0 5px 5px -5px;*/
+    z-index: 100;
 }
 
 nav a {
     text-decoration: none;
     color: dimgrey;
     font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+nav p {
+    display: inline-block;
+    text-decoration: none;
+    color: dimgrey;
+    font-size: 20px;
     font-family: sans-serif;
     margin-left: 50px;
 }
