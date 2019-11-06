@@ -1,24 +1,28 @@
 nav{
     position: fixed;
     display: inline-block;
-    width: 100%;
+    width: 94%;
     height: 47px;
-    padding-top: 3px;
+    padding-top: 15px;
+    padding-left: 6%;
     top: 0;
     left: 0;
-    background: #ffffd3;
-    /*box-shadow: 0 5px 5px -5px;*/
     z-index: 100;
 }
-
 nav a {
     text-decoration: none;
     color: dimgrey;
-    font-size: 40px;
+    font-size: 30px;
     font-family: sans-serif;
     margin-left: 50px;
+    margin-top: -5px;
 }
-
 nav p {
     display: inline-block;
+}
+.logo{
+    position: absolute;
+    top: -3px;
+    left: 25px;
+    z-index: 101;
 }
