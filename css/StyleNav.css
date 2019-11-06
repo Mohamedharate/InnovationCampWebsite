@@ -21,6 +21,8 @@ nav a {
 
 nav p {
     display: inline-block;
+    max-width: 30%;
+    height: auto;
     padding-left: 50px;
     padding-top: 20px;
     margin-left: 50px;
