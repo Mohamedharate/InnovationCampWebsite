@@ -26,7 +26,7 @@ nav p {
     position: fixed;
     top: -3px;
     left: 25px;
-    z-index: 100;
+    z-index: 101;
 }
 
 @keyframes fadeIn {
