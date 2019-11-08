@@ -32,7 +32,7 @@ nav p {
 
 @keyframes fadeIn {
     From {
-        opacity: 0;
+        opacity: 0.5;
     }
     To {
         opacity: 1;
