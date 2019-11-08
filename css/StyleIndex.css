@@ -52,7 +52,7 @@ a.active, a:hover {
     display: block;
     font-family: sans-serif;
     line-height: 30px;
-    animation: fadeIn 32.5s;
+    animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
