@@ -8,6 +8,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 100;
+    animation: fadeIn 1.5s;
 }
 nav a {
     text-decoration: none;
@@ -16,6 +17,7 @@ nav a {
     font-family: sans-serif;
     margin-left: 50px;
     margin-top: -5px;
+    animation: fadeIn 2s;
 }
 nav p {
     display: inline-block;
@@ -25,4 +27,14 @@ nav p {
     top: -3px;
     left: 25px;
     z-index: 101;
+    animation: fadeIn 2.5s;
+}
+
+@keyframes fadeIn {
+    From {
+        opacity: 0;
+    }
+    To {
+        opacity: 1;
+    }
 }
