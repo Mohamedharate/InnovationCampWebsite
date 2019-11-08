@@ -27,7 +27,6 @@ a.active, a:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-    animation: fadeIn 2.5s;
 }
 
 .Box1{
@@ -36,7 +35,7 @@ a.active, a:hover {
     padding: 25px;
     background: radial-gradient(#ffffd3, #f3f2b4);
     box-shadow: 0 5px 5px -2px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 .Box2{
     height: 450px;
@@ -50,6 +49,11 @@ a.active, a:hover {
     font-family: sans-serif;
     line-height: 30px;
     animation: fadeIn 3s;
+}
+.Box p {
+    font-family: sans-serif;
+    line-height: 30px;
+    animation: fadeIn 3.5s;
 }
 
 @keyframes fadeIn {
