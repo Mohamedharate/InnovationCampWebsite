@@ -55,6 +55,8 @@ a.active, a:hover {
 .Box p2 {
     text-align: center;
     margin: auto;
+    height: 430px;
+    width: 430px;
     animation: fadeIn 3.5s;
 }
 
