@@ -3,7 +3,6 @@ body {
     padding: 0;
     width: 100%;
     background-color: #ffffd3;
-    animation: fadeIn 1s;
 }
 
 a.active, a:hover {
@@ -20,7 +19,6 @@ a.active, a:hover {
     width: 100%;
     clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
     z-index: -10;
-    animation: fadeIn 1.5s;
 }
 .Box{
     display: flex;
