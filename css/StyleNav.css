@@ -1,5 +1,5 @@
 nav{
-    position: fixed;
+    position: static;
     display: inline-block;
     width: 94%;
     height: 47px;
