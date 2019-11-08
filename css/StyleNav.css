@@ -23,10 +23,11 @@ nav p {
     display: inline-block;
 }
 .logo{
-    position: absolute;
+    position: fixed;
     top: -3px;
     left: 25px;
     z-index: 101;
+    animation: fadeIn 2.5s;
 }
 
 @keyframes fadeIn {
