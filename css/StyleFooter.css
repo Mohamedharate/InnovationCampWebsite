@@ -5,14 +5,4 @@ footer{
     left: 0;
     height: 80px;
     width: 100%;
-    animation: fadeIn 2s;
-}
-
-@keyframes fadeIn {
-    From {
-        opacity: 0.2;
-    }
-    To {
-        opacity: 1;
-    }
 }
