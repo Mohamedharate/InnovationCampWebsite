@@ -50,8 +50,10 @@ a.active, a:hover {
     animation: fadeIn 3s;
 }
 .Box p {
-    font-family: sans-serif;
-    line-height: 30px;
+    height: 420px;
+    width: 420px;
+    padding: 25px;
+    box-shadow: 0 5px 5px -2px;
     animation: fadeIn 3.5s;
 }
 
