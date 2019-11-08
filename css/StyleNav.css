@@ -21,6 +21,7 @@ nav a {
 }
 nav p {
     display: inline-block;
+    animation: fadeIn 2.5s;
 }
 .logo{
     position: absolute;
