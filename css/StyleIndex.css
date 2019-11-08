@@ -48,11 +48,14 @@ a.active, a:hover {
     animation: fadeIn 2s;
 }
 .Box p {
-    text-align: center;
-    display: block;
     font-family: sans-serif;
     line-height: 30px;
     animation: fadeIn 3s;
+}
+.Box p2 {
+    text-align: center;
+    display: block;
+    animation: fadeIn 3.5s;
 }
 
 @keyframes fadeIn {
