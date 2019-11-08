@@ -27,6 +27,7 @@ nav p {
     top: -3px;
     left: 25px;
     z-index: 101;
+    animation: fadeIn 3.5s;
 }
 
 @keyframes fadeIn {
