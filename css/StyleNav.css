@@ -21,14 +21,12 @@ nav a {
 }
 nav p {
     display: inline-block;
-    animation: fadeIn 2.5s;
 }
 .logo{
     position: absolute;
     top: -3px;
     left: 25px;
     z-index: 101;
-    animation: fadeIn 2.5s;
 }
 
 @keyframes fadeIn {
