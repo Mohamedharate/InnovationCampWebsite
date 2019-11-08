@@ -33,7 +33,7 @@ a.active, a:hover {
     padding: 25px;
     background: radial-gradient(#ffffd3, #f3f2b4);
     box-shadow: 0 5px 5px -2px;
-    animation: fadeIn 2.5s;
+    animation: fadeIn 2s;
 }
 
 .Box h1, .Box p {
