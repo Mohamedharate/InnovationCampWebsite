@@ -33,12 +33,12 @@ a.active, a:hover {
     padding: 25px;
     background: radial-gradient(#ffffd3, #f3f2b4);
     box-shadow: 0 5px 5px -2px;
-    animation: fadeIn 2s;
+    animation: fadeIn 1s;
 }
 .Box h1, .Box p {
     font-family: sans-serif;
     line-height: 30px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
