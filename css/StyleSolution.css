@@ -3,10 +3,12 @@ body {
     padding: 0;
     width: 100%;
     background-color: #ffffd3;
+    animation: fadeIn 1s;
 }
 a.active, a:hover {
     color: black;
     text-decoration: underline #f3f2b4;
+    animation: fadeIn 1s;
 }
 
 .backgroundstyle{
@@ -18,6 +20,7 @@ a.active, a:hover {
     width: 100%;
     clip-path: polygon(0 33%, 100% 0, 100% 66%, 0% 100%);
     z-index: -10;
+    animation: fadeIn 1.5s;
 }
 .Box{
     display: flex;
@@ -31,8 +34,19 @@ a.active, a:hover {
     padding: 25px;
     background: radial-gradient(#ffffd3, #f3f2b4);
     box-shadow: 0 5px 5px -2px;
+    animation: fadeIn 2.5s;
 }
 .Box h1, .Box p {
     font-family: sans-serif;
     line-height: 30px;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    From {
+        opacity: 0;
+    }
+    To {
+        opacity: 1;
+    }
 }
