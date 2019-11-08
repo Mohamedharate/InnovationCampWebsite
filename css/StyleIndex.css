@@ -54,7 +54,7 @@ a.active, a:hover {
 }
 .Box p2 {
     text-align: center;
-    display: block;
+    display: flex;
     animation: fadeIn 3.5s;
 }
 
