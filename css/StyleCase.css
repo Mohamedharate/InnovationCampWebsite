@@ -3,7 +3,6 @@ body {
     padding: 0;
     width: 100%;
     background-color: #ffffd3;
-    animation: fadeIn 0.2s;
 }
 a.active, a:hover {
     color: black;
