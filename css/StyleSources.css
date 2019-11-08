@@ -3,12 +3,10 @@ body {
     padding: 0;
     width: 100%;
     background-color: #ffffd3;
-    animation: fadeIn 0.2s;
 }
 a.active, a:hover {
     color: black;
     text-decoration: underline #f3f2b4;
-    animation: fadeIn 0.2s;
 }
 .backgroundstyle{
     position: absolute;
@@ -19,7 +17,6 @@ a.active, a:hover {
     width: 100%;
     clip-path: polygon(0 33%, 100% 0, 100% 66%, 0% 100%);
     z-index: -10;
-    animation: fadeIn 0.5s;
 }
 .Box{
     display: flex;
