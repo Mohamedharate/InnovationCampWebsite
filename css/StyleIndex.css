@@ -54,6 +54,11 @@ a.active, a:hover {
     line-height: 30px;
     animation: fadeIn 3.5s;
 }
+.Box p2 {
+    height: 420px;
+    width: 420px;
+    animation: fadeIn 3.5s;
+}
 
 @keyframes fadeIn {
     From {
